@@ -26,7 +26,7 @@ const Hero = (props) => (
         To seek and maintain a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management and problem-solving skills.
         </SectionText>
         <Button>
-        <a onClick={() => window.open("https://drive.google.com/file/d/1sXpzy_52pThBt9Bng5KFYpvjOOtAWR1z/view", "Popup","toolbar=no, location=no, statusbar=no, menubar=no, scrollbars=1, resizable=0, width=580, height=600, top=30")} alt=''src='https://drive.google.com/file/d/1sXpzy_52pThBt9Bng5KFYpvjOOtAWR1z/view'>
+        <a onClick={() => window.open("https://drive.google.com/file/d/1I_k-OsMGOIjOvjWXEThyyEn1HQRGVJ_v/view", "Popup","toolbar=no, location=no, statusbar=no, menubar=no, scrollbars=1, resizable=0, width=580, height=600, top=30")} alt=''src='https://drive.google.com/file/d/1I_k-OsMGOIjOvjWXEThyyEn1HQRGVJ_v/view'>
            Preview My Resume
         </a>
         </Button>
