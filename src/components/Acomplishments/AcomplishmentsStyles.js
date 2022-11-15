@@ -46,6 +46,7 @@ export const Box = styled.div`
     }
   }
 `
+
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
