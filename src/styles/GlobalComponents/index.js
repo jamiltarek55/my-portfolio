@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+//Section Styled
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
