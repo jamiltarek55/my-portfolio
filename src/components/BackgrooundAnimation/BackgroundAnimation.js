@@ -361,5 +361,4 @@ const BackgroundAnimation = () => (
     </svg>
   </div>
 );
-
 export default BackgroundAnimation;
