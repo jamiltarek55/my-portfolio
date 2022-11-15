@@ -5,7 +5,6 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
-
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
@@ -115,5 +114,4 @@ const Timeline = () => {
     </Section>
   );
 };
-
 export default Timeline;
