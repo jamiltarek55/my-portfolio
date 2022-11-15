@@ -82,7 +82,7 @@ export const projects = [
   },
   {
     title: 'Fitness Club',
-    description: "A project on Fitness club by React.The Fitness Center is a health, recreational, and social facility geared towards exercise, sports, and other physical activities.",
+    description: "A project on Fitness club by React.The FITNESS CLUB means a building in which equipment, facilities and/or instruction is available so that individuals can undertake activity to obtain physical fitness and this may include accessory lounge facilities, office space and associated retail.",
       image: '/images/fitness.PNG',
       tags: ['React 18', 'Scrolling','M@UI'],
     source: 'https://github.com/jamiltarek55/React_Fitness_App',
