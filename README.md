@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-![Image](/src/public/assets/profile.PNG)
+![Image](/src/public/Asset/profile.PNG)
 
 ## Live Preview
 
