@@ -53,5 +53,4 @@ const Technologies = () =>  (
     <SectionDivider colorAlt />
   </Section>
 );
-
 export default Technologies;
