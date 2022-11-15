@@ -16,6 +16,7 @@ export const ImageContainer = styled.div`
     padding: 0;
     margin-top: 40px;
   }
+  
   @media ${props => props.theme.breakpoints.md} {
     background-image: none;
     padding: 0;
@@ -68,17 +69,17 @@ export const ListTitle = styled.h4`
   color: #FFFFFF;
   margin-bottom: 8px;
 
-@media ${props => props.theme.breakpoints.md}{
+  @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
   line-height: 28px;
-}
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
+  @media ${props => props.theme.breakpoints.sm}{
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.02em;
   margin-bottom: 4px;
-}
+  }
 `
 
 export const ListParagraph = styled.p`
@@ -102,15 +103,12 @@ export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
 
-@media ${props => props.theme.breakpoints.md}{
-  max-width: 203px;
-}
-
-@media ${props => props.theme.breakpoints.sm}{
+  @media ${props => props.theme.breakpoints.md}{max-width: 203px;}
+  @media ${props => props.theme.breakpoints.sm}{
   margin-bottom: 14px;
   max-width: 320px;
   flex-direction: row;
-}
+  }
 `
 
 export const ListIcon = styled.img`
