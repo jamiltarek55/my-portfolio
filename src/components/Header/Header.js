@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillMail, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
@@ -44,5 +43,4 @@ const Header = () =>  (
       </Div3>
     </Container>
 );
-
 export default Header;
