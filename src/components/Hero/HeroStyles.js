@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
@@ -14,8 +13,8 @@ row-gap: -1rem;
   padding: 2rem;
   padding-bottom: -1;
 }
-
 `;
+
 export const Img = styled.img`
   width:70%;
   height:100%;
@@ -32,6 +31,7 @@ export const Img = styled.img`
     padding: auto;
 }
 `;
+
 export const LeftSection = styled.div `
 width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
