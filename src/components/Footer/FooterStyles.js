@@ -7,7 +7,6 @@ export const FooterWrapper = styled.section`
   margin: 1rem auto;
   box-sizing: content-box;
 
-
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
@@ -80,7 +79,6 @@ export const CompanyContainer = styled.div`
 	}
 `
 
-
 export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
 	min-width: 280px;
@@ -112,7 +110,6 @@ export const SocialContainer = styled.div`
 	}
 `
 
-
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
@@ -142,6 +139,7 @@ export const LinkColumn = styled.div`
 	max-width: 220px;
 	width: 100%;
 `
+
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
